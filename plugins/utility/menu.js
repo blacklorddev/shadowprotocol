@@ -30,7 +30,7 @@ function groupByCategory(plugins) {
 }
 
 module.exports = {
-  command: ["menu", "help", "mzazi"],
+  command: ["menu", "help", "blacklord"],
   desc: "Show command list and bot status",
   run: async ({ trashcore, chat, botNumber }) => {
     const uptimeSeconds = Math.max(1, Math.floor((Date.now() - (global.botStartTime || Date.now())) / 1000));
@@ -51,11 +51,11 @@ module.exports = {
 
    const text = `
 ╔═════════════════════╗
-   🤖 CYBERBYTE AI
+   SHADOW PROTOCOL
 ╚═════════════════════╝
 📌 SYSTEM INFORMATION
 ━━━━━━━━━━━━━━━━━━━━━━
-👤 Creator        : Anonymous (Mzazi)
+👤 Creator        : BlackLord Dev
 🔑 Command Prefix : ${prefix}
 ⚙️ Bot Mode       : ${mode}
 🧩 Total Plugins  : ${totalPlugins}
@@ -65,7 +65,7 @@ module.exports = {
 ━━━━━━━━━━━━━━━━━━━━━━
 ${commandsText}
 ═══════════════════════
-⚡ Powered by MZAZI Systems
+⚡ Powered by BlackLord Ai
 `;
     await trashcore.sendMessage(chat, {
       image: { url: "https://files.catbox.moe/en2v4a.jpg" },
