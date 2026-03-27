@@ -2,7 +2,7 @@ module.exports = {
   command: "setbio",
   desc: "Change the bot's WhatsApp bio/status",
   category: "Owner",
-  usage: ".setbio <new_bio>",
+  usage: ".setbio <text> eg. Shadow protocol is alive",
   run: async ({ m, args, isOwner, trashcore, xreply }) => {
     if (!isOwner) return await xreply("❌ Only the bot owner can use this command.");
     if (!args[0]) return await xreply("⚠️ Usage: .setbio <new_bio>");
