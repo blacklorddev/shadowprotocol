@@ -60,10 +60,10 @@ const loli = {
   },
   message: {
     extendedTextMessage: {
-      text: "⚡ CyberByteAi • Premium Bot",
+      text: "⚡ shadowprotocol• Premium Bot",
       contextInfo: {
         externalAdReply: {
-          title: "୧⍤⃝୧CyberByteAi୧⍤⃝୧",
+          title: "୧⍤⃝SHADOWPROTOCOL⍤⃝୧",
           body: "Your AI assistant",
           thumbnailUrl: "https://files.catbox.moe/8ekyzy.jpg",
           sourceUrl: null,
@@ -87,10 +87,10 @@ const xreply = async (text) => {
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363406028122214@newsletter',
           serverMessageId: 20,
-          newsletterName: '୧⍤⃝୧CyberByteAi୧⍤⃝୧'
+          newsletterName: '⍤⃝SHADOWPROTOCOL⍤⃝"'
         },
         externalAdReply: {
-          title: "୧⍤⃝୧CyberByteAi୧⍤⃝୧",
+          title: "⍤⃝SHADOWPROTOCOL⍤⃝",
           body: "",
           thumbnailUrl: "https://files.catbox.moe/8ekyzy.jpg",
           sourceUrl: null,
