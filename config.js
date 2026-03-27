@@ -1,6 +1,6 @@
 module.exports = {
   // Bot Identity
-  BOT_NAME: "Shadow Protocol",
+  BOT_NAME: "⍤⃝SHADOWPROTOCOL⍤⃝"",
   VERSION: "1.0.0",
 
   // Core Settings
